@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite City</title>
+</head>
+
+<body>
+    <h1>My Favorite City</h1>
+    <p>My favorite city is Kampala. This beautiful city is located in central Uganda.</p>
+    <img src="images/kampala-city.webp" alt="A view of Kampala City, Uganda">
+</body>
+
+</html>
