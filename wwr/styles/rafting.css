@@ -1,12 +1,8 @@
 :root {
     --primary-color: rgb(25, 25, 167);
     /* DARK BLUE*/
-    --secondary-color: teal;
-    /*TEAL */
     --accent1-color: rgb(170, 118, 22);
     /*0RANGE*/
-    --accent2-color: #f4a261;
-    /*SAND*/
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
 
