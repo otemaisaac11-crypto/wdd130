@@ -15,6 +15,7 @@
 }
 
 body {
+    color: black;
     font-family: var(--body-font);
     color: var(--accent1-color);
 
