@@ -35,6 +35,7 @@
         <!-- Company Info -->
         <section class="contact-info">
             <h2>Company Information</h2>
+
             <address>
                 <strong>White Water Rafting Adventures</strong><br>
                 123 Riverbend Drive<br>
@@ -42,10 +43,14 @@
             </address>
 
             <p>
-                <strong>Phone:</strong> <a href="tel:+256790340992">+256 790 340 992</a><br>
-                <strong>Reservations:</strong> <a href="tel:+256743358820">+256 743 358 820</a><br>
-                <strong>Email:</strong> <a
-                  href="mailto:info@whiteriverraft.com">info@whiteriverraft.com</a>
+                <strong>Phone:</strong>
+                <a href="tel:+256790340992">+256 790 340 992</a><br>
+
+                <strong>Reservations:</strong>
+                <a href="tel:+256743358820">+256 743 358 820</a><br>
+
+                <strong>Email:</strong>
+                <a href="mailto:info@whiteriverraft.com">info@whiteriverraft.com</a>
             </p>
 
             <p>Office hours: Mon–Sat, 8:00 AM — 6:00 PM</p>
@@ -63,48 +68,57 @@
         <!-- Contact Form -->
         <section class="contact-form">
             <h2>Send Us a Message</h2>
+
             <form action="#" method="post">
 
+                <!-- Name -->
                 <div class="form-item">
                     <label for="name">Your name</label>
                     <input id="name" name="name" type="text" required>
                 </div>
 
+                <!-- Email -->
                 <div class="form-item">
                     <label for="email">Your email</label>
                     <input id="email" name="email" type="email" required>
                 </div>
 
+                <!-- Radio Buttons -->
                 <div class="form-item">
                     <fieldset>
                         <legend>Purpose of your message</legend>
+
                         <div class="radio-group">
-                            <label>
-                                <input type="radio" name="purpose" value="general" required> General
-                                Inquiry
-                            </label>
-                            <label>
-                                <input type="radio" name="purpose" value="reservation"> Reservation
-                                Question
-                            </label>
-                            <label>
-                                <input type="radio" name="purpose" value="suggestion"> Website
-                                Suggestion
-                            </label>
+
+                            <input id="purpose-general" type="radio" name="purpose" value="general"
+                              required>
+                            <label for="purpose-general">General Inquiry</label>
+
+                            <input id="purpose-reservation" type="radio" name="purpose"
+                              value="reservation">
+                            <label for="purpose-reservation">Reservation Question</label>
+
+                            <input id="purpose-suggestion" type="radio" name="purpose"
+                              value="suggestion">
+                            <label for="purpose-suggestion">Website Suggestion</label>
+
                         </div>
                     </fieldset>
                 </div>
 
+                <!-- Message -->
                 <div class="form-item">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
 
+                <!-- Checkbox -->
                 <div class="form-item checkbox">
                     <input id="newsletter" name="newsletter" type="checkbox">
                     <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 </div>
 
+                <!-- Submit -->
                 <div class="form-item">
                     <button type="submit">Send Message</button>
                 </div>
@@ -112,11 +126,12 @@
             </form>
         </section>
 
-        <!-- ✅ Team Section (HORIZONTAL + BEFORE FOOTER) -->
+        <!-- Team Section (Horizontal Before Footer) -->
         <section class="employees">
             <h2>Meet Our Team</h2>
 
             <div class="employee-grid">
+
                 <figure class="employee-card">
                     <img src="images/team-member.jpg" alt="Namataka Angel">
                     <figcaption>
@@ -140,6 +155,7 @@
                         Operations Manager
                     </figcaption>
                 </figure>
+
             </div>
         </section>
 
