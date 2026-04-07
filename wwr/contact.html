@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact White Water Rafting for reservations, questions, and customer support">
+    <meta name="author" content="Isaac Otema">
+    <title>Contact Us | White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="images/logo.jpg" alt="White Water Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="grid">
+        <!-- Hero section -->
+        <div class="hero">
+            <img src="images/rafting.jpg" alt="Rafting Vibes">
+            <h1>Contact Us</h1>
+        </div>
+
+        <!-- Company Info -->
+        <section class="contact-info">
+            <h2>Company Information</h2>
+            <address>
+                <strong>White Water Rafting Adventures</strong><br>
+                123 Riverbend Drive<br>
+                Rapids City, RC 45678<br>
+            </address>
+            <p>
+                <strong>Phone:</strong> <a href="tel:+256790340992">+2 (567) 9034-0992</a><br>
+                <strong>Reservations:</strong> <a href="tel:+256743358820">+2 (567)
+                    4335-8820</a><br>
+                <strong>Email:</strong> <a
+                  href="mailto:info@whiteriverraft.com">info@whiteriverraft.com</a>
+            </p>
+            <p>Office hours: Mon–Sat, 8:00 AM — 6:00 PM</p>
+        </section>
+
+        <!-- Map + Team side by side -->
+        <section class="visit-team">
+            <!-- Map left -->
+            <div class="map-section">
+                <h2>Visit Us</h2>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d639446.7121363558!2d-70.02210536070906!3d-15.510166812885474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sug!4v1764781344632!5m2!1sen!2sug"
+                  allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Team right -->
+            <div class="employees">
+                <h2>Our Team</h2>
+                <div class="employee-grid">
+                    <figure class="employee-card">
+                        <img src="images/team-member.jpg" alt="Team member">
+                        <figcaption>
+                            <strong>Namataka Angel</strong><br>
+                            Lead Guide
+                        </figcaption>
+                    </figure>
+                    <figure class="employee-card">
+                        <img src="images/side-view-portrait.jpg" alt="Team member">
+                        <figcaption>
+                            <strong>Brick Baraza</strong><br>
+                            Safety Officer
+                        </figcaption>
+                    </figure>
+                    <figure class="employee-card">
+                        <img src="images/happy-man-smiling.jpg" alt="Team member">
+                        <figcaption>
+                            <strong>Modrick Mwogezi</strong><br>
+                            Operations Manager
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-item">
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Your email</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div class="form-item">
+                    <fieldset>
+                        <legend>Purpose of your message</legend>
+                        <div class="radio-group">
+                            <label for="purpose-general"><input id="purpose-general" type="radio"
+                                  name="purpose" value="general" required> General Inquiry</label>
+                            <label for="purpose-reservation"><input id="purpose-reservation"
+                                  type="radio" name="purpose" value="reservation"> Reservation
+                                Question</label>
+                            <label for="purpose-suggestion"><input id="purpose-suggestion"
+                                  type="radio" name="purpose" value="suggestion"> Website
+                                Suggestion</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-item checkbox">
+                    <input id="newsletter" name="newsletter" type="checkbox">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="form-item">
+                    <button id="send-message" name="send" type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 White Water Rafting Adventures | Isaac Otema</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.jpg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.jpg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.jpg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

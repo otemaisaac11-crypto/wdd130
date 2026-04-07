@@ -24,7 +24,7 @@ header {
     color: white;
     display: grid;
     grid-template-columns: 80px 1fr;
-    align-items: center;
+
     gap: 20px;
     padding: 10px;
     background-color: var(--primary-color);
@@ -34,7 +34,7 @@ header nav {
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 header img {
@@ -161,4 +161,198 @@ h1 {
 
 .adventure-gallery img {
     border-radius: 8px;
+}
+
+/* --- Contact Info Section --- */
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    /* light background for contrast */
+    border-radius: 8px;
+}
+
+.contact-info address,
+.contact-info p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* --- Map Section --- */
+.map-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.map-section iframe {
+    width: 100%;
+    max-width: 840px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+/* --- Employee Section --- */
+.employees {
+    margin: 20px;
+}
+
+.employee-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.employee-card img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 8px;
+}
+
+/* --- Contact Info Section --- */
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    /* light background for contrast */
+    border-radius: 8px;
+}
+
+.contact-info address,
+.contact-info p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* --- Map Section --- */
+.map-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.map-section iframe {
+    width: 100%;
+    max-width: 840px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+/* --- Employee Section --- */
+.employees {
+    margin: 20px;
+}
+
+.employee-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.employee-card img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 8px;
+}
+
+/* --- Contact Form --- */
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.contact-form .form-item {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--body-font);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-form legend {
+    font-weight: bold;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.contact-form button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--accent1-color);
 }
