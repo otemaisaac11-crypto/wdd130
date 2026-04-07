@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Website Poll</h1>
+    </header>
+
+    <main>
+        <form>
+
+            <!-- Full Name -->
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <!-- Email -->
+            <label for="useremail">Email Address:</label><br>
+            <input type="email" id="useremail" name="useremail" required><br><br>
+
+            <!-- Favorite Browser -->
+            <label for="browser">What is your favorite browser?</label><br>
+            <select id="browser" name="browser">
+                <option value="chrome">Chrome</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <!-- Checkbox -->
+            <label>
+                <input type="checkbox" id="pet" name="pet">
+                Do you have a household pet?
+            </label><br><br>
+
+            <!-- Textarea -->
+            <label for="feedback">List the places you have lived:</label><br>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Enter places here..."></textarea><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Poll</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Poll Activity | Isaac Otema</p>
+    </footer>
+
+</body>
+
+</html>
