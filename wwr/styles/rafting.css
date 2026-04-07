@@ -1,11 +1,10 @@
 :root {
     --primary-color: rgb(32, 32, 178);
-    /* DARK BLUE*/
+    /* Dark Blue */
     --accent1-color: rgb(120, 80, 10);
-    /*0RANGE*/
+    /* Orange */
     --heading-font: Georgia, serif;
     --body-font: Arial, sans-serif;
-
 }
 
 * {
@@ -17,24 +16,20 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-
 }
 
 header {
     color: white;
     display: grid;
     grid-template-columns: 80px 1fr;
-
     gap: 20px;
     padding: 10px;
     background-color: var(--primary-color);
 }
 
 header nav {
-
     display: flex;
     justify-content: space-around;
-
 }
 
 header img {
@@ -60,13 +55,11 @@ footer {
 }
 
 .socialmedia img {
-
     width: 30px;
 }
 
 header nav a {
     text-decoration: none;
-
     color: white;
     padding: 8px 12px;
     border-radius: 5px;
@@ -80,7 +73,6 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-
 }
 
 nav,
@@ -95,6 +87,7 @@ article {
     text-decoration: none;
 }
 
+/* --- Hero Section --- */
 .hero {
     position: relative;
 }
@@ -116,122 +109,11 @@ h1 {
     color: white;
 }
 
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background-color: rgba(255, 255, 255, 0.85);
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-    margin-left: 10px;
-
-}
-
-.history-content {
-    display: grid;
-    grid-template-columns: 1fr 250px 1fr;
-    gap: 20px;
-    align-items: center;
-}
-
-.history-content img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.adventure-gallery {
-    display: flex;
-    gap: 10px;
-}
-
-.adventure-gallery figure {
-    flex: 1;
-    text-align: center;
-}
-
-.adventure-gallery img,
-.adventure-gallery figcaption {
-    width: 100%;
-
-}
-
-.adventure-gallery img {
-    border-radius: 8px;
-}
-
 /* --- Contact Info Section --- */
 .contact-info {
     margin: 20px;
     padding: 20px;
     background-color: #f7f7f7;
-    /* light background for contrast */
-    border-radius: 8px;
-}
-
-.contact-info address,
-.contact-info p {
-    margin-bottom: 12px;
-    line-height: 1.6;
-}
-
-.contact-info a {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* --- Map Section --- */
-.map-section {
-    margin: 20px;
-    text-align: center;
-}
-
-.map-section iframe {
-    width: 100%;
-    max-width: 840px;
-    height: 450px;
-    border-radius: 8px;
-}
-
-/* --- Employee Section --- */
-.employees {
-    margin: 20px;
-}
-
-.employee-grid {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.employee-card {
-    flex: 1 1 250px;
-    text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 8px;
-}
-
-.employee-card img {
-    width: 100%;
-    border-radius: 50%;
-    max-width: 200px;
-    margin-bottom: 8px;
-}
-
-/* --- Contact Info Section --- */
-.contact-info {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    /* light background for contrast */
     border-radius: 8px;
 }
 
