@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>HTML &amp; CSS Basics Quiz</h1>
+
+        <form action="#" method="post">
+
+            <div class="form-item">
+                <label for="q1">1. Fill in the blank: The HTML element used for the largest heading is
+                    &lt;_____&gt;.</label>
+                <input type="text" id="q1" name="q1" required>
+            </div>
+
+            <div class="form-item">
+                <label for="q2">2. Short answer: In one sentence, what does the CSS "box-model" control?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="Type a short answer here..." required></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="q3">3. Which CSS property controls the space between an element's content and its
+                    border?</label>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="padding">padding</option>
+                    <option value="margin">margin</option>
+                    <option value="border">border</option>
+                </select>
+            </div>
+
+            <div class="form-item">
+                <label for="q4">4. How many heading levels are defined in HTML (enter an integer)?</label>
+                <input type="number" id="q4" name="q4" min="1" max="6" required>
+            </div>
+
+            <div class="form-item">
+                <button type="submit">Submit Quiz</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

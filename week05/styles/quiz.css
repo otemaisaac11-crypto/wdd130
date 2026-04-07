@@ -1,0 +1,65 @@
+/* Quiz form styles: single-column, uniform layout */
+:root{
+	--form-width: 680px;
+	--gap: 0.75rem;
+	--accent: #2a6f97;
+}
+
+*{box-sizing:border-box}
+body{
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background:#f7fbff;
+	color:#222;
+	padding:2rem 1rem;
+}
+
+main{max-width:var(--form-width);margin:0 auto}
+h1{text-align:center;margin-bottom:1rem;color:var(--accent)}
+
+form{
+	background:#fff;
+	border:1px solid rgba(0,0,0,0.06);
+	padding:1.25rem;
+	border-radius:8px;
+	display:block;
+}
+
+.form-item{
+	display:grid;
+	grid-template-columns:1fr; 
+	gap:var(--gap);
+	margin:0.75rem 0;
+}
+
+label{font-weight:600; font-size:0.95rem}
+
+input[type="text"], input[type="number"], select, textarea{
+	width:100%;
+	padding:0.5rem 0.65rem;
+	border:1px solid #d0d7de;
+	border-radius:6px;
+	font-size:0.95rem;
+	background:#fff;
+}
+
+textarea{resize:vertical;min-height:90px}
+
+button[type="submit"]{
+	display:inline-block;
+	padding:0.6rem 1rem;
+	background:var(--accent);
+	color:white;
+	border:none;
+	border-radius:6px;
+	cursor:pointer;
+	font-weight:700;
+	margin-top:0.5rem;
+}
+button[type="submit"]:hover{opacity:0.95}
+
+/* small screens adjustments */
+@media (max-width:480px){
+	:root{--form-width:100%}
+	main{padding:0 0.5rem}
+}
+
